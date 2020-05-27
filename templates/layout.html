@@ -1,9 +1,12 @@
 <html>
-	{% block head %}<head></head>{% endblock %}
+	{% block head %}
+	<head></head>
+	{% endblock %}
+	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='my.css') }}">
 		<body>
 		<a href="{{url_for('home')}}">Home Page</a>
 		<a href="{{url_for('flask')}}">About Flask</a>
 		{% block body %}
-		{% endblock %}		
+		{% endblock %}
 		</body>
 </html>
