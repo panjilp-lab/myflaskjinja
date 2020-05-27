@@ -1,0 +1,9 @@
+<html>
+	{% block head %}<head></head>{% endblock %}
+		<body>
+		<a href="{{url_for('home')}}">Home Page</a>
+		<a href="{{url_for('flask')}}">About Flask</a>
+		{% block body %}
+		{% endblock %}		
+		</body>
+</html>
