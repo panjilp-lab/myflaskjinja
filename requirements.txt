@@ -1,0 +1,12 @@
+Flask==1.1.1
+gunicorn==20.0.4
+itsdangerous==1.1.0
+Jinja2==2.10.3
+jsonschema==3.2.0
+Mako==1.1.0
+MarkupSafe==1.1.1
+pycodestyle==2.5.0
+pycparser==2.19
+pyrsistent==0.15.7
+Werkzeug==0.16.0
+
